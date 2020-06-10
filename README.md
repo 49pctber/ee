@@ -7,3 +7,4 @@ This repository is a collection of general-purpose algorithms that electrical en
 |Name|Username|Email|
 | - | - | - |
 |Bryan Redd|[@ae6nr](https://github.com/ae6nr)|bryan.d.redd@gmail.com|
+|Mark Lindsey|[@markrl](https://github.com/markrl)|markrlindsey@comcast.net|
