@@ -11,7 +11,7 @@ Author: redd
 import numpy as np
 import matplotlib
 from matplotlib import pyplot as plt
-from CubicInterpolationFilter import CubicInterpolationFilter
+from ParabolicInterpolationFilter import ParabolicInterpolationFilter
 
 # Increase resolution of matplotlib plots
 matplotlib.rcParams['figure.dpi'] = 150
@@ -28,7 +28,7 @@ y = np.sin(x) + n # sampled signal
 plt.plot(x, y, 'k.') # plot signal
 
 # filter
-cif = CubicInterpolationFilter()
+cif = ParabolicInterpolationFilter()
 for i in range(0,len(y)):
     cif.addSample(y[i]) # add a sample to the filter
     out = cif.interpolate(mu) # interpolated value
